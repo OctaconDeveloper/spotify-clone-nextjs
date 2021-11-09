@@ -13,7 +13,10 @@
         @apply h-6 text-[#808080] cursor-pointer;
     }
     .tag{
-        @apply py-1.5 px-3 text-[#cecece] rounded-xl text-xs font-bold border-2 border-[#484848];
+        @apply py-1.5 px-3 text-[#cecece] bg-[#282828] rounded-xl text-xs font-bold border-2 border-[#484848];
+    }
+    .signInBtn {
+        @apply text-white py-4 px-6 rounded-full bg-[#1db954] transition duration-300 ease-out border border-transparent uppercase font-bold text-xs md:text-base tracking-wider hover:scale-105 hover:bg-[#0db146]
     }
 }
 
